@@ -1,0 +1,130 @@
+﻿1. List the Operators in Java?
+Answer: The operators are:-
+I.Unary Operators.
+Ii. Arithmetic Operators.
+Iii. Shift Operators.
+Iv. Bitwise Operators
+v. Ternary Operators.
+vi. Relational Operators
+Vii. Assignment Operators.
+Viii. Logical Operators.
+
+
+2. Explain about Increment and Decrement operators and give an examples
+Answer. Increment and Decrement operators is use to increase or decrease value of variable by 1 that is i=i+1 . Both are two type first is prefix and other is postfix there syntax are -
+Increment Operators ++x / x++
+Decrement Operators - -x / x–
+
+
+3. What are the Conditional Operators in Java?
+Answer : The conditional Operators used for combining more than one boolean expression . In other words it is used to combine two expression for example if we want to print a number which is more than 3 and less than 5 then we use conditional operator
+
+
+Conditional-and operator (&&)
+The operator is applied between two Boolean expressions . It is denoted by the two AND operator (&&) . It return true if and only if both expression  are true , else return false
+
+
+Syntax
+if(condition  1 && condition  2) {
+{statement}
+}
+
+
+Conditional OR (||)
+The operator is applied between two Boolean expressions. It is denoted by the two OR operator (||). It returns true if any of the expression is true, else returns false
+
+
+Syntax
+
+
+if(condition  1 || condition  2) {
+{statement}
+}
+
+
+Ternary Operator
+Ternary operator decides which value will be assigned to the variable. It is the only conditional operator that accepts three operands. It can be used instead of the if-else statement. It makes the code much more easy, readable, and shorter.
+
+
+
+
+Syntax
+condition? {statement - 1 : statement - 2}
+
+
+
+
+
+
+4. What are the types of operators based on the number of operands?
+Answer: There are three types of operators based on the number of operands : 
+I. Unary operator
+Ii. Binary Operator
+Iii. Ternary Operator
+
+
+5. What are the conditional Statements and use of conditional statements in Java?
+if : it execute the block of code if the condition is true
+else: else is execute when the condition of if is not true then else block will execute
+else if : else if will execute when first condition is false
+switch: there are multiple block of code if any case will true then the case will execute
+
+
+6. What is the syntax of if else statement?
+if(condition a){
+// this code will execute if condition is true
+}
+else if(condition b){
+// this code will execute if condition is true
+}
+else{
+            // else block will execute if condition a and b both are false
+            }
+
+
+
+
+7. What are the 3 types of iterative statements in java?
+Answer: 3 types of iterative statements in java are:-
+1. for  loop
+2. while loop
+3. do-while loop
+
+
+8. What do you mean by an Array?
+Answer: An array is a container object that holds a fixed number of values of a single type. When the array is created, the length of the array will be declared 
+
+
+
+
+9. How to create an Array?
+Answer: There are two famous methods to create an Array 
+Method 1 :-
+int [] marks =new int[4];
+        marks[0]=30;
+        marks[1]=48;
+        marks[2]=34;
+        System.out.println(marks[0]); 
+
+
+        Method 2:-
+
+
+        int[]marks={80,3,34,55,555};
+        System.out.println(marks[2]);
+
+
+10. State the difference between StringBuffer and StringBuilder in JavaC
+Answer : Java provides three classes to represent a sequence of characters: String, StringBuffer, and StringBuilder. The String class is an immutable class whereas StringBuffer and StringBuilder classes are mutable. There are many differences between StringBuffer and StringBuilder.
+
+
+StringBuffer : StringBuffer is synchronized i.e. thread safe. It means two threads can't call the methods of StringBuffer simultaneously.
+
+
+StringBuffer is less efficient than StringBuilder.
+
+
+StringBuilder : StringBuilder is non-synchronized i.e. not thread safe. It means two threads can call the methods of StringBuilder simultaneously.
+
+
+StringBuilder is more efficient than StringBuffer.
